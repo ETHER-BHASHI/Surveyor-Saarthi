@@ -2,6 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     // Get form elements
+    console.log("hi!");
     const form = document.getElementById('insuranceForm');
     const submitBtn = document.getElementById('submitForm');
     const clearBtn = document.getElementById('clearForm');
